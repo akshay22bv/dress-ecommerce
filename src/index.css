@@ -6,4 +6,8 @@
   body {
     @apply font-primary text-primary;
   }
+
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
 }
